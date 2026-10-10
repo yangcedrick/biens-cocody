@@ -1,0 +1,62 @@
+/* Identité — Biens à vendre à Cocody
+   Parti pris : une annonce immobilière digne d'une étude de notaire — sûre d'elle,
+   claire sur les papiers et les prix, avec un seul geste : écrire sur WhatsApp. */
+:root {
+  /* Accent — le rouge-orangé du logo (#FF3300), réservé à l'action.
+     Assombri en 600 pour que le texte blanc du bouton soit lisible (5.08:1). */
+  --accent-100: #FFE3D9;
+  --accent-500: #FF3300;   /* logo uniquement */
+  --accent-600: #D42A00;   /* bouton d'action */
+  --accent-700: #B82400;   /* survol */
+
+  /* Neutres teintés : crème du carrelage, brun du bois des photos */
+  --neutre-50:  #FAF6F0;
+  --neutre-100: #F3ECE2;
+  --neutre-200: #E6DCCF;
+  --neutre-300: #CDBCA9;
+  --neutre-600: #6B5A4E;
+  --neutre-800: #3D2F27;
+  --neutre-900: #2A1F1A;
+
+  --succes: #2F6B3A;
+
+  /* Rôles */
+  --fond: var(--neutre-50);
+  --fond-alterne: var(--neutre-100);
+  --surface: #FFFFFF;
+  --fond-sombre: var(--neutre-900);
+  --texte: var(--neutre-900);            /* 14.90:1 sur fond */
+  --texte-doux: var(--neutre-600);       /* 6.10:1 sur fond */
+  --texte-inverse: var(--neutre-50);     /* 14.90:1 sur fond sombre */
+  --texte-inverse-doux: var(--neutre-300);
+  --bordure: var(--neutre-200);
+  --bordure-forte: var(--neutre-300);
+  --action: var(--accent-600);
+  --action-survol: var(--accent-700);
+  --action-texte: #FFFFFF;
+  --focus: var(--accent-500);
+
+  /* Typographie : Newsreader (titres, prix) — le sérieux d'un acte ;
+     Source Sans 3 (texte) — lisible, chiffres à chasse fixe */
+  --police-titre: "Newsreader", Georgia, "Times New Roman", serif;
+  --police-texte: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --corps: 17px;
+  --ligne: 1.55;
+  --t-petit: 14px;
+  --t-corps: 17px;
+  --t-moyen: 21px;
+  --t-grand: 26px;
+  --t-titre: 33px;
+  --t-affiche: 41px;
+  --t-affiche-large: 60px;
+
+  /* Formes : deux rayons contrastés ; séparation au trait, aucune ombre */
+  --rayon-petit: 4px;    /* boutons, étiquettes */
+  --rayon-grand: 14px;   /* cartes, photos */
+  --trait: 1px solid var(--bordure);
+  --pas: 4px;
+  --e-1: 8px;  --e-2: 12px; --e-3: 16px; --e-4: 24px;
+  --e-5: 32px; --e-6: 48px; --e-7: 72px; --e-8: 104px;
+  --largeur-max: 1120px;
+  --hauteur-bouton: 52px;
+}
